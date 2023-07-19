@@ -1,3 +1,4 @@
+![English flag with the words English Room on it] (https://github.com/MagdaWap/homepage2/blob/main/images/englishroom.png?raw=true)
 ## Description
 One of my first coding projects. This one is about learning English language. I’m an English teacher now so it’s one of my interests. 
 
