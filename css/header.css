@@ -1,0 +1,26 @@
+.header {
+    color: rgb(240, 11, 175);
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.section__header {
+    color: rgb(240, 11, 175);
+    text-align: center;
+}
+
+.section__header {
+    color: rgb(7, 193, 29);
+    text-align: left;
+    padding: 10px;
+    margin: 30px;
+}
+
+.tableHeader {
+    background-color: rgb(7, 193, 29);
+    color: rgb(236, 252, 238);
+    font-size: large;
+}

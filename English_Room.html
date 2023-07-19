@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class=html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja strona</title>
+  <link href="css/body.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+ <header class="mainHeader"><h1>English Room</h1></header>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__listItem"><a class="navigation__link" href="#strona-glowna">Strona główna</a>
+      </li>
+      <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+      <li class="navigation__listItem"><a class="navigation__link" href="#seriale">Seriale</a></li>
+      <li class="navigation__listItem"><a class="navigation__link" href="#gdzie-ogladać-seriale">Gdzie
+          oglądać seriale</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="section">
+      <h2 class="section__header" id="o-mnie">Cześć, witaj na mojej stronie!</h2>
+      <img class="section__image" width="300" height="300" src="https://iili.io/HEk951s.jpg" alt="kobieta ubrana w różową bluzkę, uśmiecha się delikatnie.">
+      <p class="section__imageText">Nazywam się Magdalena Wapińska, <br> jestem nauczycielką języka
+        angielskiego.
+        <br>Miłośniczka języków obcych i podróży.
+        <br>Zapraszam po inspiracje i materiały pomocne w nauczaniu<br> <i>English language!</i>
+    </section>
+    <section class="section--special">
+      <h3 class="section__subHeader" id="seriale">Seriale idealne do nauki języka angielskiego</h3>
+      <img class="section__image--bigSize" src="https://iili.io/HGIHF0x.jpg" alt="kadry z różnych seriali wraz z tytułami">
+      <br>Postanawiamy sobie, że codziennie będziemy poświęcać chwilę czasu na naukę języka.
+      Niestety akurat dzisiaj nic nam się nie chce a już szczególnie powtarzać 100 fiszek ze słownictwem.
+      W takich chwilach najlepszym sposobem na ćwiczenia jest nauka poprzez rozrywkę.
+      Mam tu na myśli obejrzenie dwóch odcinków (lub więcej :D)serialu z oryginalnym dźwiękiem i angielskimi
+      napisami.
+    </section>
+    <section class="section--fixed">
+      <h4 class="section__subHeader--colorPink">Poniżej tabela z proponowaną listą seriali</h4>
+    <button class="button">Ukryj tabelę</button>
+      <table class="table">
+        <caption class="table__caption">Lista seriali anglojęzycznych:</caption>
+        <tr>
+          <th class="table__cell--Header" scope="col">Tytuł</th>
+          <th class="table__cell--Header" scope="col">Ilość sezonów</th>
+          <th class="table__cell--Header" scope="col">Gdzie można obejrzeć?</th>
+        </tr>
+        <tr>
+          <th class="table__cell" scope="row">Friends</th>
+          <td class=table__cell>10</td>
+          <td class=table__cell>HBO Max</td>
+        </tr>
+        <tr>
+          <th class="table__cell" scope="row">The big bang theory</th>
+          <td class=table__cell>12</td>
+          <td class=table__cell>HBO Max</td>
+        </tr>
+        <tr>
+          <th class="table__cell" scope="row">The Crown</th>
+          <td class=table__cell>5</td>
+          <td class=table__cell>Netflix</td>
+        </tr>
+        <tr>
+          <th class="table__cell" scope="row">The Office</th>
+          <td class=table__cell>9</td>
+          <td class=table__cell>Netflix</td>
+        </tr>
+        <tr>
+          <th class="table__cell" scope="row">Downtown Abbey</th>
+          <td class=table__cell>6</td>
+          <td class=table__cell>Netflix</td>
+        </tr>
+      </table>
+    </section>
+    <section class="section section--fontSpecial" id="gdzie-ogladać-seriale">
+      <h5>Zainteresowany?</h5>
+      <p>Zajrzyj na
+        <a class="section__link--special" target="_blank" href="https://www.netflix.com/pl/">
+          Netflix (otwiera w nowej karcie)</a>
+        lub
+        <a class="section__link--special" target="_blank" href="https://www.hbomax.com/pl/pl">
+          HBO Max (otwiera w nowej karcie) </a>
+    </section>
+  </main>
+  <hr>
+  <footer class="footer">© English Room by Magdalena Wapińska All Rights Reserved</footer>
+</body>
+
+</html>

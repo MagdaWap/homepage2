@@ -1,0 +1,32 @@
+.navigation {
+    width: auto;
+    height: auto;
+}
+
+.navigation__list {
+    color: rgb(243, 236, 238);
+    background-color: rgb(227, 7, 142);
+    border-width: auto;
+    width: 1000px;
+    height: auto;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.navigation__listItem {
+    max-width: 1000px;
+    margin: 25px;
+    display: inline;
+    padding: 10px;
+}
+
+.navigation__list__item:hover {
+    background-color: tomato;
+}
+
+.navigation__link {
+    color: aliceblue;
+    text-decoration: none;
+}
