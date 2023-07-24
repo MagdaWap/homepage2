@@ -1,9 +1,19 @@
-console.log("Cześć!") 
+{
+const welcome = () => {
+  console.log("Cześć!") 
+}
 
-const button = document.querySelector('.button');
-const table = document.querySelector('.table');
+const hideTable = () => {
+  const table = document.querySelector('.table');
 
-button.addEventListener('click', () => {
   table.classList.toggle('hidden');
-  button.innerText = table.classList.contains('hidden') ? 'Pokaż' : 'Ukryj';
-});
+    button.innerText = table.classList.contains('hidden') ? 'Pokaż' : 'Ukryj';
+};
+
+const init = () => {
+  const button = document.querySelector('.button');
+  button.addEventListener('click', hideTable);
+};
+welcome();
+init();
+}
