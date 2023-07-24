@@ -1,7 +1,9 @@
 ![English flag with the words English Room on it](images/englishroom.png)
 ## Description
 One of my first coding projects. This one is about learning English language. I’m an English teacher now so it’s one of my interests. 
+
 ![print screen of homepage2](images/homepage1.png) 
+
 ## Applied technologies
 - HTML
 - JavaScript
@@ -17,8 +19,10 @@ One of my first coding projects. This one is about learning English language. I�
 ## Java Script
 This folder contains a script.js file. I’m starting to learn JS, so there is a simple interactive button.
 When you press the button the table appears another click makes it disappears. 
-![print screen of homepage2](images/homepage2.png)
-![print screen of homepage2](images/homepage3.png) 
+
+![print screen of homepage2](images/homepage3.png)
+![print screen of homepage2](images/homepage2.png) 
+
 ## Author
 Magdalena Wapińska
 
