@@ -2,6 +2,10 @@
 ## Description
 One of my first coding projects. This one is about learning English language. I’m an English teacher now so it’s one of my interests. 
 
+## Demo 
+https://magdawap.github.io/homepage2/
+
+
 ![print screen of homepage2](images/homepage1.png) 
 
 ## Applied technologies
